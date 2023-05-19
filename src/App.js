@@ -102,7 +102,7 @@ const App = () => {
           </h1>
         </div>
         <div className="row my-4">
-          <div className="col-5 mx-auto">
+          <div className="col-md-5 col-sm-12 mx-auto">
             <div className="row">
             <div className="col-9">
             <input type="text" className='form-control' placeholder='Write here' value={list.text} onChange={handleChange} />
