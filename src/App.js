@@ -121,7 +121,6 @@ const App = () => {
                 defaultArr.map((item)=>{
                      return <Listitem key={item.id} value={item.value} id={item.id} handleDelete={handleDelete} handleEdit={handleEdit} handleStatus={handleStatus} completed={item.completed} />
                   }
-
                 )
               }
             </ul>
